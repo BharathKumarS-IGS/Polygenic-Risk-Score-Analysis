@@ -14,7 +14,7 @@ base_snp <- list()
 #the loop below loads base file, adds column names as required, perform SNP match with target data
 #then, extract the required fields of base data from the obtained snp matched data 
 #changing the order of columns to known order earlier
-#modifying few names of columns to previous existing names(changing alleles back to a1 and a2 from a0 and a1 respectively)
+#modifying few names of columns to previous existing names(changing alleles back to A1 and A2 from a1 and a0 respectively)
 
 for (i in 1:17){
   
